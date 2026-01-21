@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tradutor com Voz</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="caixa-maior">
+
+      <!-- TEXTO -->
+      <textarea
+        class="input-texto"
+        placeholder="Digite ou fale para traduzir..."
+      ></textarea>
+
+      <!-- CONTROLES -->
+      <div class="controle">
+        <select class="idioma">
+          <option>Inglês</option>
+          <option>Japonês</option>
+          <option>Mandarim</option>
+          <option>Português</option>
+        </select>
+
+        <!-- BOTÃO TRADUZIR -->
+        <button id="btn-traduzir">
+          <img src="img/traduzir.svg" alt="Traduzir" />
+        </button>
+
+        <!-- BOTÃO MICROFONE -->
+        <button id="btn-mic">
+          <img src="img/microfone.svg" alt="Microfone" />
+        </button>
+
+        <!-- BOTÃO OUVIR TRADUÇÃO (FONE) -->
+        <button id="btn-falar">
+          <img src="img/fone.svg.svg" alt="Ouvir tradução" />
+        </button>
+      </div>
+
+      <!-- RESULTADO -->
+      <div class="resultado">
+        <h3 class="titulo-traducao">Tradução</h3>
+        <p class="traducao">A tradução aparecerá aqui...</p>
+      </div>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
